@@ -1,0 +1,80 @@
+body {
+  border-bottom: 1;
+  padding: 8 16;
+}
+
+.menu {
+  height: 100vh;
+  width: 365px;
+  background-color: #ffffff;
+  float: left;
+}
+
+.menu .title {
+  height: 80px;
+  width: 269px;
+  padding: 10px 48px;
+  background-color: #ffffff;
+  float: left;
+  text-align: center;
+}
+
+.home {
+  font-size: 1em;
+  font-width: 300;
+  padding: 8px 8px;
+  color: #000000;
+}
+
+#feature {
+  color: #aa6666;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+}
+
+.home p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.content {
+  width: 1075px;
+  height: 100vh;
+}
+
+.content .banner {
+  width: 1075px;
+  height: 600px;
+  position: relative;
+  left: 365px;
+  color: #ffffff;
+  background-image: url("/images/bird.jpg");
+}
+
+.content .banner p {
+  position: absolute;
+  bottom: 64px;
+  right: 48px;
+  color: #ffffff;
+}
+
+#bulbul {
+  position: absolute;
+  bottom: 83px;
+  right: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.content .bottom {
+  width: 1075px;
+  height: 272px;
+  position: relative;
+  top: 600px;
+  background-color: #dccbba;
+  background-image: url("/images/word.png");
+  background-repeat: no-repeat;
+}
